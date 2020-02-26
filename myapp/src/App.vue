@@ -4,7 +4,6 @@
 
     <v-toolbar
             dark
-
             src=""
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
@@ -13,9 +12,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-export</v-icon>
-      </v-btn>
+    
     </v-toolbar>
 
   <v-app>
