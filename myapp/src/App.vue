@@ -1,10 +1,9 @@
 <template>
 
-  <div>
-
-    <v-toolbar
+  <v-app>
+    <div>
+    <v-toolbar height="35px"
             dark
-            src=""
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
@@ -12,23 +11,25 @@
 
       <v-spacer></v-spacer>
 
-    
     </v-toolbar>
 
-  <v-app>
     <v-content>
       <HelloWorld/>
     </v-content>
+      <my-footer></my-footer>
+    </div>
   </v-app>
-  </div>
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import MyFooter from './components/MyFooter';
 
   export default {
     components: {
-      HelloWorld
+      HelloWorld,
+      MyFooter,
     },
     data: () => ({
 
