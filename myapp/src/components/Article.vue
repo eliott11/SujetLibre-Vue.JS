@@ -1,15 +1,21 @@
 <template>
     <div>
-        <ul id="v-for-object">
-        <li v-for="title in object"
-            {{ title }}. {{ author }}: {{ date }}: {{ text }}
-        </li>
-        </ul>
-        <v-row justify="space-around">
+    <!-- Article avec avatar et contenu -->
+        <v-row class="align-content-center" justify="space-around">
             <v-avatar>
-                <img src="https://cdn4.iconfinder.com/data/icons/superheroes/512/ironman-512.png" alt="John">
+                <img src="https://cdn4.iconfinder.com/data/icons/superheroes/512/ironman-512.png" alt="Pathfinder">
             </v-avatar>
-        </v-row><br><br>
+        </v-row>
+
+        <div class="text-center">
+           <ul>
+               <li v-for ="item in items" v-bind:key="item">
+                   {{ item }}
+               </li>
+           </ul>
+        </div>
+
+        <br><br>
     </div>
 </template>
 
@@ -19,10 +25,10 @@
         data () {
             return {
                 items: {
-                    title: 'How to do lists in Vue',
-                    author: 'Jane Doe',
+                    title: 'Article 1',
+                    author: 'Pathfinder',
                     date: '2016-04-10',
-                    text: 'Hello'
+                    text: 'Hello, this is my first article'
                 },
             }
         },
