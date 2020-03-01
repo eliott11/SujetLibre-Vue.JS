@@ -14,7 +14,7 @@
 
         <h1 class="text-center" style="font-size:75px"><u>{{text1 | capitalize}}</u></h1> <br><br>
     <h2 class="text-center" style="font-size:35px"><u>{{text2 | capitalize}}</u></h2><br>
-    <h3 class="text-center" style="font-size:25px">{{text3 | capitalize}}</h3><br><br>
+    <h3 class="text-center" style="font-size:25px">{{text3 | capitalize}}</h3><br><br><br>
 
     </div>
 </template>

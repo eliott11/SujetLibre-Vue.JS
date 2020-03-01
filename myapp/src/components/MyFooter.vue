@@ -59,7 +59,7 @@
                     </v-card-actions>
                 </v-card>
             </v-dialog>
-        </v-row><br>
+        </v-row><br><br>
 
         <v-footer padless>
             <v-col
