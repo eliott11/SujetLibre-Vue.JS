@@ -26,16 +26,16 @@
 import HelloWorld from './components/HelloWorld';
 import MyFooter from './components/MyFooter';
 
-  export default {
-    components: {
-      HelloWorld,
-      MyFooter,
-    },
-    data: () => ({
+export default {
+  components: {
+    HelloWorld,
+    MyFooter,
+  },
+  data: () => ({
 
-    }),
-    created () {
-      this.$vuetify.theme.dark = true
-    },
-  }
+  }),
+  created () {
+    this.$vuetify.theme.dark = true
+  },
+}
 </script>

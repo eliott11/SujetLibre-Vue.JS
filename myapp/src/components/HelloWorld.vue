@@ -11,11 +11,12 @@
                 style="height: auto"
         ></v-carousel-item>
     </v-carousel>
+
     <h1 class="text-center font-weight-black" style="font-size:75px"><u>{{text}}</u></h1> <br><br>
         <h2 class="text-center" style="font-size:35px"><u>{{text1}}</u></h2><br>
     <h3 class="text-center" style="font-size:25px">{{text2}}</h3><br><br>
-    </div>
 
+    </div>
 </template>
 
 <script>
@@ -44,6 +45,4 @@
         },
 
     }
-
-
 </script>
