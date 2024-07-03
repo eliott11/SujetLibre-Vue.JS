@@ -1,3 +1,3 @@
 # SujetLibre-Vue.JS
 
-Voici mon site sur le jeu vidéo Astroneer en vue.js.
+Here is my website about Astroneer's game using Vue.js.
