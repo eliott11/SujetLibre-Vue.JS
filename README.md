@@ -1,6 +1,6 @@
 # SujetLibre-Vue.JS
 
-Here is my website about Astroneer's game using Vue.js.
+Here is my website about Astroneer videogame using Vue.js.
 
 ## Project setup
 ```
